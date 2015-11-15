@@ -13,6 +13,6 @@
 
 Route::get('/', function()
 {
-	$candidates = Candidate::all();
+	$candidates = Candidate::all()->sortByDesc('average_sentiment');
     return View::make('candidates.index', compact('candidates'));
 });

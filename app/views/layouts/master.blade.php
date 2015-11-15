@@ -14,9 +14,9 @@
     @yield('topscript')
 
   </head>
-  <body style="padding-top: 50px;">
+  <body>
     
-    @include('partials.navbar')
+    {{-- @include('partials.navbar') --}}
 
     <div class="container">
 

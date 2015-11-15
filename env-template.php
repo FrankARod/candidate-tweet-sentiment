@@ -15,6 +15,8 @@ return array(
 
     'ALCHEMY-KEY' => '',
 
+    'SENTIMENT_API_DAILY_LIMIT' => 500,
+
     'MAIL_HOST' => '',
     'MAIL_USER' => '',
     'MAIL_PASS' => '',

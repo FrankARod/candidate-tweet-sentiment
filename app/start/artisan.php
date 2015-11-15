@@ -11,3 +11,5 @@
 |
 */
 
+Artisan::add(new CollectTweets());
+Artisan::add(new GatherSentimentCommand());

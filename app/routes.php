@@ -13,5 +13,6 @@
 
 Route::get('/', function()
 {
-	return View::make('sample');
+	$candidates = Candidate::all();
+    return View::make('candidates.index', compact('candidates'));
 });
